@@ -31,6 +31,7 @@ struct item
     string Cust_Dob;
     string Cust_address;
     item *next;
+    string country;
 	item(string x,int x1,string x2,string x3, item* t) // constructor
     {
     	Cust_Name = x;
